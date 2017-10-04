@@ -1,0 +1,20 @@
+---
+layout: default2
+---
+<div class="home">
+  <h1 class="page-heading">Reviews</h1>
+  <ul class="post-list">
+    {% for post in site.posts%}
+    {% if post.category contains "review" %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% if post.image[0] != null %}
+	  <div class = "preview"><img src="/images/{{post.img[1]}}" height="300px"></div>
+	  </br>
+	  {% endif %}
+	  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+      {% endif %}
+      {% endfor %}
+  </ul>
+</div>

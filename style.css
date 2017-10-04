@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+    float: right;
+    margin-left: auto;
+    text-align:    left;    
+    display:       block;
+    width: 73%;
+    border-top: 2px solid #2A2A2A;
+    border-radius: 10px;
+    margin-bottom: 100px;
+    padding-left: 1%;
+    display:   inline;
+}
+
+#sidebar{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    padding-left: 1%;
+    margin-right: 10px;
+    margin-left: 10px;
+    box-sizing: border-box;
+    overflow :hide;
+    float: left;
+}
+
+h1{
+    font-family: Garamond, Arial;
+    font-weight: 100;
+}
+
+p{
+    font-family: Georgia;
+    font-size: 1em;
+}
+
+#nav-id{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button{
+    text-decoration: none;
+    display: block;
+    width: 30%;
+    border: none;
+    margin-top: 50px;
+    font-size: 1em;
+}
+
+#container{
+   
+    box-shadow: 10px 10px 5px #888888;
+    width: 1250px;
+    padding-bottom:30px;
+    background-color: #ffffcc;
+    margin-left:auto;
+    margin-right:auto;
+}
+#head{
+    border: none;
+    background-color: #FFFFFB;
+}
+
+
+#footer{
+    text-align: center;
+    clear: both;
+    display: block;
+    font-size: 10px;
+    padding-left: 30%;
+    padding-right: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:  250px;
+    text-align: center;
+    border-top: 1px solid;
+    clear: both;
+}
+#title{
+    font-size: 4.5em;
+    text-align: center;
+    margin-bottom: 0px;
+}
+.preview{
+    display: inline;
+    margin: 10px;
+    border: solid 1px grey;
+}
+#art_contain{
+    margin-bottom:25px;
+    margin-top:25px;
+    width: 800;
+    margin-left:auto;
+    margin-right:auto;
+    background-color:white;
+}
+
+.picture{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #F2F3FA;
+    padding: 10px;
+
+    margin-bottom: 8px;
+    border-radius: 4px;
+}
+
+.side-link, .side-link:link, .side-link:visited, .sideLinkCurrent{
+    color: black;
+    text-decoration: none;
+    font-size: 2em;
+    font-family: Georgia;
+    letter-spacing: 5px;
+    font-weight: 300;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.side-link:visited{
+    text-decoration: none;
+    color: black;
+}
+.side-link:hover{
+    text-decoration: none;
+    background-color: #c3c3c3;
+}
+
+.meta{
+    margin-bottom: 1em;
+    display: block;
+    list-style-type: none;
+}
+
+.meta{
+    list-style-type: none;
+    font-family: arial;
+    text-align: left;
+    font-size: 0.9em;
+    clear: both;
+    display: block;
+}
+
+.post-meta-preview{
+    margin-left:auto;
+    margin-right: 25%;
+    font-size: 1.2em;
+    float: right;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.post-link{
+    display: inline;
+    text-align: left;
+    font-size: 2em;
+    font-family: Garamond, Arial;
+    text-decoration: none;
+    letter-spacing: 0.05;
+    width: 60%;
+    float:left;
+    margin-bottom: 50px;
+}

@@ -1,0 +1,21 @@
+---
+layout: default2
+title:  Art
+---
+<div class="home">
+  <h1 class="page-heading">Art</h1>
+  <ul class="post-list">
+    {% for post in site.posts%}
+    {% if post.category contains "art" %}
+    <li class = "meta">
+      <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      <p class="post-meta.preview">{{ post.date | date: "%b %-d, %Y" }}</p>
+      {% if post.image[0] != null %}
+      <div class = "preview"><img src="/images/{{post.img[1]}}" height="300px"></div>
+	  </br>
+	  {% endif %}
+      </li>
+      {% endif %}
+      {% endfor %}
+  </ul>
+</div>

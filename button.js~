@@ -1,0 +1,19 @@
+    <script src="buttons.js"></script>
+    pageno = 1;
+    function hover(object, no){
+	if(pageno==no)
+	    return;
+    else{
+	object.style.backgroundColor="#cccccc";
+	return;
+    }
+    }
+function unhover(object, no){
+    if(pageno==no){
+	return;
+    }
+    else{
+	object.style.backgroundColor="#ffffe6";
+	return;
+	}
+}

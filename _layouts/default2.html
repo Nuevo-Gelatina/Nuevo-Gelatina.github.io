@@ -1,0 +1,36 @@
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <title> {{page.title}} </title>
+</head>
+<body>
+  <div id="head">
+        <img src="/images/logo.png"  alt="Logo" style="width: 18%; margin-left: 1%; margin-right: 5%;" width="150px">
+	<img src="/images/title.png" alt="Neuvo Gelatina" style="width: 60%; margin-right: 0;margin-bottom: 60px;" width="400px">
+  </div>
+  <div id="sidebar">
+    <a class={% if page.url contains "photography"%} {{"sideLinkCurrent"}} {% else %} {{"side-link"}}{% endif %}  href="/photography.html">Photography</a>
+    <a href="/travel.html" class={% if page.url contains "travel"%} {{"sideLinkCurrent"}} {% else %} {{"side-link"}}{% endif %}>Travel  </a>
+    <a href="/art.html"class={% if page.url contains "art"%} {{"sideLinkCurrent"}} {% else %} {{"side-link"}}{% endif %}>Art </a>
+    <a href="/reviews.html" class={% if page.url contains "reviews"%} {{"sideLinkCurrent"}} {% else %} {{"side-link"}}{% endif %}>Reviews</a>
+    <a href="/contact.html" class={% if page.url contains "contact" %} {{"sideLinkCurrent"}} {% else %} {{"side-link"}}{% endif %}>Contact </a>
+  </div>
+    <div id="main">    
+      {{content}}
+      <div id="nav-id">
+  {% if page.previous.url %} 
+    <a class="button" href="{{page.previous.url}}" style="float: left; text-align: left;"> Previous post: {{page.previous.title}}</a> 
+  {% endif %} 
+  {% if page.next.url %} 
+    <a class="button" href="{{page.next.url}}" style = "float: right; text-align: right;">Next post: {{page.next.title}}</a> 
+  {% endif %} 
+      </div>
+    </div>
+</div>
+</br>
+<div id="footer">
+  All works on this site belong to Jessica Jenkinson. The use of any artwork, photographs or written works from this site is prohibited unless authorised.
+</div>
+  </body>
+
+</html>
