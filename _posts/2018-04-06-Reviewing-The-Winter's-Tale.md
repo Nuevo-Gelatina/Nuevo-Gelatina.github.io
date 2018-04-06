@@ -1,4 +1,12 @@
+---
+layout: post
+date: 2018-06-04 16:35:00
+category: review
+title: "Reviewing ROH's The Winter's Tale"
+---
+
 # Reviewing ROH's _The Winter's Tale_
+
 The genre of Shakespeare’s  _The Winter’s Tale_ has been timelessly debated. Choreographer Christopher Wheeldon’s telling of the tale takes the audience from a realm of intense psychological drama, to one of ease and tenderness by the second act. Whilst these two very distinct acts brought staging, costume and choreography of a complete aesthetic contrast, a contrast pivotal in depicting the two very different kingdoms of Bohemia and Sicilia, its execution led to a decline in narrative captivation. Although I personally favour dark and emotional intensity within a performed narrative, the heightened tensions, malice and seething insanity of the first act was performed with such artistry, it overpowered the following act, underwhelming its agility.
 
 “The language collapses under the weight of emotion,” is how former Royal Opera House ballerina Darcey Bussell described the performance of this classic drama as a ballet. The absence of spoken word was compensated by an intensity of movement and atmosphere on the stage. The prologue was symbolic in its presentation of Leontes and Polixenes: the two young kings are formulaically aligned on stage with their two Mothers, two crowns and growth into two men. Whilst seemingly unified, their starkly contrasting costumes of red and green symbolically informed their differences from the start. Polixenes’ bright red foreshadows his deliverance of danger and disorder later in the performance, whilst Leontes’ green develops into a colour that associates with his forthcoming descent into insanity.
